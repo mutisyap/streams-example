@@ -24,6 +24,10 @@ public class StreamsExampleApplication {
             TestProducer testProducer = testProducers.get(i);
             testProducer.start();
         }
+         // TestConsumer testConsumer = new TestConsumer(topic);
+         //
+        //
+        // testConsumer.start();
     }
 
 }

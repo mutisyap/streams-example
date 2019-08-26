@@ -12,7 +12,7 @@ import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
 public class TestProducer extends Thread {
-    private static final String KAFKA_SERVER_URL = "http://51.15.233.87:9092";
+    private static final String KAFKA_SERVER_URL = "http://51.158.176.172:9092";
     private static final String CLIENT_ID = "streams-pipe";
     private final KafkaProducer<String, Map> producer;
     private final String topic;
