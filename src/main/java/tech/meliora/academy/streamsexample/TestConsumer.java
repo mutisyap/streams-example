@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Properties;
 
 public class TestConsumer extends Thread {
-    private static final String KAFKA_SERVER_URL = "http://51.15.233.87:9092";
+    private static final String KAFKA_SERVER_URL = "http://[IP]:[PORT]";
     private static final String CLIENT_ID = "test-consumer-2";
     private final KafkaConsumer<String, Map> consumer;
     private final String topic;
